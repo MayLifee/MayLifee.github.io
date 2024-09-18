@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #fff
+}
+
+.topnav {
+  overflow: hidden;
+  background: #fff;
+}
+
+.topnav a {
+  float: left;
+  color: #000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.topnav a:hover {
+  background: rgb(7, 52, 253);
+  color: #000;
+}
+
+.topnav a.active {
+  background: #fff;
+  color: #000;
+}
+
+.header {
+    background: dodgerblue;
+}
+.header input {
+    position: relative;
+    top: -16px;
+    width: 800px;
+}
+.header img {
+    position: relative;
+    left: 4px;
+    top: 2.5px;
+}
+.logo {
+    width: 250px;
+}
+
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+</style>
+
+<div class="footer">
+  <p>Footer</p>
+</div>
